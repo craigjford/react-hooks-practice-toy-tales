@@ -11,10 +11,7 @@ function App() {
   useEffect(() => {
       fetch("http://localhost:3001/toys")
       .then((res) => res.json())
-      .then((data) => {
-        console.log('data = ', data)
-        setToys(data)
-      })
+      .then((data) => setToys(data))
   }, []);
 
   const handleClick = () => {
@@ -23,12 +20,23 @@ function App() {
 
   const handleToyAdd = (newToy) => {
       setToys([...toys, newToy])
-      console.log('in App add toy finished')
+      setShowForm(false);
   }
 
-  const donateAppToy = (newToy) => {
-    console.log('in App Delete toy = ', newToy)
-    console.log('in App add toy finished')
+  const deleteAppToy = (id) => {
+      const filteredToys = toys.filter((toy) => toy.id !== id);
+      setToys(filteredToys);
+  }
+
+  const updateLikesApp = (id, updatedToy) => {
+      const newToyList = toys.map((toy) => {
+          if(toy.id === id) {
+              return updatedToy;
+          } else {
+              return toy;
+          }
+      })
+      setToys(newToyList);
   }
 
   return (
@@ -38,7 +46,7 @@ function App() {
       <div className="buttonContainer">
         <button onClick={handleClick}>Add a Toy</button>
       </div>
-      <ToyContainer toys={toys} donateToy={donateAppToy} />
+      <ToyContainer toys={toys} donateToy={deleteAppToy} updateLikes={updateLikesApp}/>
     </>
   );
 }

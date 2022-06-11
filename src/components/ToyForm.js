@@ -21,15 +21,12 @@ function ToyForm({ onhandleSubmit }) {
       })  
         .then((res) => res.json())
         .then((data) => {
-            console.log('data = ', data)
             onhandleSubmit(data)
       })
 
-      console.log('in addToyBtn newToy = ', newToy)
-
       setName("");
       setImage("");
-      
+
   }
 
   return (

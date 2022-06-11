@@ -25,12 +25,6 @@
       "likes": 4
     },
     {
-      "id": 5,
-      "name": "Rex",
-      "image": "https://static.wikia.nocookie.net/pixar/images/a/a8/Rex_%28Toy_Story%29.png/revision/latest/scale-to-width-down/377?cb=20210221010941",
-      "likes": 1
-    },
-    {
       "id": 6,
       "name": "Bo Peep",
       "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
@@ -46,19 +40,37 @@
       "id": 8,
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "likes": 2
+    },
+    {
+      "name": "Bamm Bamm",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.pKzqNqN8hh-j0ghCho43EAAAAA%26pid%3DApi&f=1",
+      "likes": 2,
+      "id": 9
     },
     {
       "name": "Dino",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ZxButOY6VfwAw9RCaWDvIgHaHa%26pid%3DApi&f=1",
-      "likes": 0,
-      "id": 9
+      "likes": 1,
+      "id": 10
     },
     {
-      "name": "Bamm Bamm",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.9dFXvGho2Htl6drfz2qNFgHaFP%26pid%3DApi&f=1",
-      "likes": 0,
-      "id": 10
+      "name": "Wilma Flintstone",
+      "image": "https://comicvine.gamespot.com/a/uploads/square_medium/3/35816/715823-untitled.jpg",
+      "likes": 3,
+      "id": 11
+    },
+    {
+      "name": "Barney",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.l5fjzi_2r8hxn7ezAKuuJAHaEx%26pid%3DApi%26h%3D160&f=1",
+      "likes": 4,
+      "id": 12
+    },
+    {
+      "name": "Astro",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.snLF61Bw5QTWV5EeXG_1MAHaJZ%26pid%3DApi%26h%3D160&f=1",
+      "likes": 9,
+      "id": 13
     }
   ]
 }
